@@ -20,7 +20,7 @@ public class a1LoginPage {
 	
 	@FindBy(name="uname") WebElement username;
 	@FindBy(id="ped") WebElement password;
-	@FindBy(xpath="//a[@value='submit']") WebElement submit;
+	@FindBy(xpath="//a[@value='submt']") WebElement submit;
 	
 	 
 	public void login(String U1, String P1) {
